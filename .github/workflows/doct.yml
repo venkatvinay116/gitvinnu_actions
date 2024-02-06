@@ -1,0 +1,11 @@
+jobs:
+  job_1:
+    name: <name of the first job>
+    runs-on: <type of machine to run the job on>
+    steps:
+      - name: <step 1>
+        run: |
+          <commands>
+      - name: <step 2>
+        run: |
+          <commands>
